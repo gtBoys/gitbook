@@ -1,4 +1,5 @@
 {
+    "language" : "zh-hans",
     "plugins": ["tbfed-pagefooter", "-lunr", "-search", "search-pro","chapter-fold","back-to-top-button","favicon","lightbox","code"],
     "pluginsConfig": {
         "tbfed-pagefooter": { 
@@ -22,5 +23,8 @@
             "博客" : "http://www.dongenju.com",
             "github" : "https://github.com/gtBoys/"
         }
+    },
+    "styles": {
+        "website": "styles/website.css"
     }
 }
