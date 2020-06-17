@@ -1,0 +1,26 @@
+{
+    "plugins": ["tbfed-pagefooter", "-lunr", "-search", "search-pro","chapter-fold","back-to-top-button","favicon","lightbox","code"],
+    "pluginsConfig": {
+        "tbfed-pagefooter": { 
+          "copyright":"©2020 DongEnJu",
+          "modify_label": "文件修订时间：",
+          "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "favicon": {
+            "shortcut": "asset/img/favicon.ico",
+            "bookmark": "asset/img/favicon.ico",
+            "appleTouch": "asset/img/favicon.ico",
+            "appleTouchMore": {
+                "120x120": "asset/img/favicon.ico",
+                "180x180": "asset/img/favicon.ico"
+            }
+        }
+    
+    },
+    "links" : {
+        "sidebar" : {
+            "博客" : "http://www.dongenju.com",
+            "github" : "https://github.com/gtBoys/"
+        }
+    }
+}
