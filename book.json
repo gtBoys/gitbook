@@ -1,10 +1,10 @@
 {
     "language" : "zh-hans",
-    "plugins": ["tbfed-pagefooter", "-lunr", "-search", "search-pro","chapter-fold","back-to-top-button","favicon","lightbox","code"],
+    "plugins": ["tbfed-pagefooter", "-lunr", "-search", "search-pro","chapter-fold","back-to-top-button","favicon","lightbox","code","advanced-emoji","insert-logo"],
     "pluginsConfig": {
         "tbfed-pagefooter": { 
           "copyright":"©2020 DongEnJu",
-          "modify_label": "文件修订时间：",
+          "modify_label": "修订时间：",
           "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "favicon": {
@@ -15,7 +15,11 @@
                 "120x120": "asset/img/favicon.ico",
                 "180x180": "asset/img/favicon.ico"
             }
-        }
+        },
+        "insert-logo": {
+            "url": "http://gitbook.dongenju.com/asset/img/logo.png",
+            "style": "background: none; max-height: 70px; min-height:30px"
+          }
     
     },
     "links" : {
