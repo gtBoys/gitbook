@@ -1,11 +1,25 @@
 {
-    "language" : "zh-hans",
-    "plugins": ["tbfed-pagefooter", "-lunr", "-search", "search-pro","chapter-fold","back-to-top-button","favicon","lightbox","code","advanced-emoji","insert-logo"],
+    "title": "DongEnJu_GitBook",
+    "description": "董恩举GitBook",
+    "language": "zh-hans",
+    "plugins": [
+        "tbfed-pagefooter",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "chapter-fold",
+        "back-to-top-button",
+        "favicon",
+        "lightbox",
+        "code",
+        "advanced-emoji",
+        "insert-logo"
+    ],
     "pluginsConfig": {
-        "tbfed-pagefooter": { 
-          "copyright":"©2020 DongEnJu",
-          "modify_label": "修订时间：",
-          "modify_format": "YYYY-MM-DD HH:mm:ss"
+        "tbfed-pagefooter": {
+            "copyright": "©2020 DongEnJu",
+            "modify_label": "修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "favicon": {
             "shortcut": "asset/img/favicon.ico",
@@ -19,13 +33,12 @@
         "insert-logo": {
             "url": "http://gitbook.dongenju.com/asset/img/logo.png",
             "style": "background: none; max-height: 70px; min-height:30px"
-          }
-    
+        }
     },
-    "links" : {
-        "sidebar" : {
-            "博客" : "http://www.dongenju.com",
-            "github" : "https://github.com/gtBoys/"
+    "links": {
+        "sidebar": {
+            "博客": "http://www.dongenju.com",
+            "github": "https://github.com/gtBoys/"
         }
     },
     "styles": {
