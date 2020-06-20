@@ -3,7 +3,6 @@
     "description": "董恩举GitBook",
     "language": "zh-hans",
     "plugins": [
-        "ebook-convert",
         "tbfed-pagefooter",
         "-lunr",
         "-search",
